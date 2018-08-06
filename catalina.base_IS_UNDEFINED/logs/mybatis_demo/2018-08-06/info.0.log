@@ -1,0 +1,46 @@
+2018-08-06 13:39:43.207 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 10396 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-06 13:39:43.229 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-06 13:39:43.443 [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590] [INFO ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c95a964: startup date [Mon Aug 06 13:39:43 GMT+08:00 2018]; root of context hierarchy
+2018-08-06 13:39:47.547 [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] [INFO ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c9301541] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-06 13:39:48.754 [o.s.boot.web.embedded.tomcat.TomcatWebServer:91] [INFO ] - Tomcat initialized with port(s): 8090 (http)
+2018-08-06 13:39:48.835 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Initializing ProtocolHandler ["http-nio-8090"]
+2018-08-06 13:39:48.887 [org.apache.catalina.core.StandardService:180] [INFO ] - Starting service [Tomcat]
+2018-08-06 13:39:48.888 [org.apache.catalina.core.StandardEngine:180] [INFO ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-06 13:39:48.904 [org.apache.catalina.core.AprLifecycleListener:180] [INFO ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\JDK1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\mysql\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Git\cmd;.]
+2018-08-06 13:39:49.235 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring embedded WebApplicationContext
+2018-08-06 13:39:49.235 [org.springframework.web.context.ContextLoader:285] [INFO ] - Root WebApplicationContext: initialization completed in 5792 ms
+2018-08-06 13:39:49.490 [o.s.boot.web.servlet.ServletRegistrationBean:186] [INFO ] - Servlet dispatcherServlet mapped to [/]
+2018-08-06 13:39:49.497 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-06 13:39:49.498 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-06 13:39:49.498 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-06 13:39:49.498 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-06 13:39:50.564 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-06 13:39:51.171 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:361] [INFO ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-06 13:39:51.246 [org.hibernate.jpa.internal.util.LogHelper:31] [INFO ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-06 13:39:51.704 [org.hibernate.Version:45] [INFO ] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-06 13:39:51.730 [org.hibernate.cfg.Environment:213] [INFO ] - HHH000206: hibernate.properties not found
+2018-08-06 13:39:52.093 [org.hibernate.annotations.common.Version:66] [INFO ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-06 13:39:52.647 [org.hibernate.dialect.Dialect:157] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-06 13:39:53.840 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 13:39:54.654 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 13:39:55.353 [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:574] [INFO ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c95a964: startup date [Mon Aug 06 13:39:43 GMT+08:00 2018]; root of context hierarchy
+2018-08-06 13:39:55.445 [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:235] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-06 13:39:55.515 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/]}" onto public java.lang.String com.luoxue.mybatis_demo.controller.DefaultController.index()
+2018-08-06 13:39:55.519 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/login]}" onto public org.springframework.web.servlet.ModelAndView com.luoxue.mybatis_demo.controller.user.UserController.login(java.lang.String,java.lang.String)
+2018-08-06 13:39:55.522 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/info]}" onto public com.luoxue.mybatis_demo.entity.User com.luoxue.mybatis_demo.controller.user.UserController.show()
+2018-08-06 13:39:55.525 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 13:39:55.526 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 13:39:55.579 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 13:39:55.579 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 13:39:55.694 [o.s.b.a.web.servlet.WelcomePageHandlerMapping:61] [INFO ] - Adding welcome page template: index
+2018-08-06 13:39:56.376 [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:131] [INFO ] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-06 13:39:56.756 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-06 13:39:57.003 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-06 13:39:57.006 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-06 13:39:57.017 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-06 13:39:57.062 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Starting ProtocolHandler ["http-nio-8090"]
+2018-08-06 13:39:57.080 [org.apache.tomcat.util.net.NioSelectorPool:180] [INFO ] - Using a shared selector for servlet write/read
+2018-08-06 13:39:57.138 [o.s.boot.web.embedded.tomcat.TomcatWebServer:206] [INFO ] - Tomcat started on port(s): 8090 (http) with context path ''
+2018-08-06 13:39:57.152 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 15.792 seconds (JVM running for 20.253)
