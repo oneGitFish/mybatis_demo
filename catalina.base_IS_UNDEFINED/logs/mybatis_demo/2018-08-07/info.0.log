@@ -1,0 +1,1174 @@
+2018-08-07 11:16:54.807 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 8436 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:16:54.814 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: prd
+2018-08-07 11:16:54.894 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33fa78a2: startup date [Tue Aug 07 11:16:54 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:16:57.135 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-07 11:16:57.293 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.296 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.299 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.302 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.333 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.336 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.339 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.342 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.356 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.359 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.362 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.376 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.380 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.382 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.387 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.392 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.395 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.398 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.400 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.403 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.408 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.410 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.413 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.416 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.419 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.422 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.426 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.431 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.435 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.438 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:16:57.444 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:17:27.454 [com.alibaba.druid.pool.DruidDataSource:2181] [ERROR] - create connection error, url: jdbc:mysql://localhost:3306/mybatis_demo, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178)
+2018-08-07 11:17:46.967 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 6992 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:17:46.974 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 11:17:47.049 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a1098d9: startup date [Tue Aug 07 11:17:47 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:17:49.191 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-07 11:17:49.496 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:361] [INFO ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:17:49.509 [org.hibernate.jpa.internal.util.LogHelper:31] [INFO ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-07 11:17:49.593 [org.hibernate.Version:45] [INFO ] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-07 11:17:49.595 [org.hibernate.cfg.Environment:213] [INFO ] - HHH000206: hibernate.properties not found
+2018-08-07 11:17:49.727 [org.hibernate.annotations.common.Version:66] [INFO ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-07 11:17:49.908 [org.hibernate.dialect.Dialect:157] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-07 11:17:50.253 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:17:51.584 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 11:17:51.637 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 11:17:51.638 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 11:17:51.646 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 11:17:51.661 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 5.478 seconds (JVM running for 7.79)
+2018-08-07 11:17:51.669 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a1098d9: startup date [Tue Aug 07 11:17:47 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:17:51.673 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 11:17:51.674 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 11:17:51.675 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:597] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:17:51.680 [com.alibaba.druid.pool.DruidDataSource:1608] [INFO ] - {dataSource-1} closed
+2018-08-07 11:18:15.963 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 2768 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:18:15.971 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 11:18:16.196 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64859d88: startup date [Tue Aug 07 11:18:16 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:18:18.130 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-07 11:18:18.366 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:361] [INFO ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:18:18.380 [org.hibernate.jpa.internal.util.LogHelper:31] [INFO ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-07 11:18:18.458 [org.hibernate.Version:45] [INFO ] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-07 11:18:18.460 [org.hibernate.cfg.Environment:213] [INFO ] - HHH000206: hibernate.properties not found
+2018-08-07 11:18:18.513 [org.hibernate.annotations.common.Version:66] [INFO ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-07 11:18:18.692 [org.hibernate.dialect.Dialect:157] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-07 11:18:19.037 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:18:20.007 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 11:18:20.061 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 11:18:20.062 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 11:18:20.070 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 11:18:20.086 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 5.134 seconds (JVM running for 7.1)
+2018-08-07 11:18:20.094 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@64859d88: startup date [Tue Aug 07 11:18:16 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:18:20.098 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 11:18:20.098 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 11:18:20.099 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:597] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:18:20.106 [com.alibaba.druid.pool.DruidDataSource:1608] [INFO ] - {dataSource-1} closed
+2018-08-07 11:18:48.995 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 2240 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:18:49.003 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 11:18:49.075 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@69914623: startup date [Tue Aug 07 11:18:49 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:18:50.896 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-07 11:18:51.127 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:361] [INFO ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:18:51.141 [org.hibernate.jpa.internal.util.LogHelper:31] [INFO ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-07 11:18:51.230 [org.hibernate.Version:45] [INFO ] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-07 11:18:51.232 [org.hibernate.cfg.Environment:213] [INFO ] - HHH000206: hibernate.properties not found
+2018-08-07 11:18:51.284 [org.hibernate.annotations.common.Version:66] [INFO ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-07 11:18:51.439 [org.hibernate.dialect.Dialect:157] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-07 11:18:51.778 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:18:52.754 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 11:18:52.806 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 11:18:52.808 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 11:18:52.815 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 11:18:52.831 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 4.959 seconds (JVM running for 6.984)
+2018-08-07 11:18:52.840 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@69914623: startup date [Tue Aug 07 11:18:49 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:18:52.844 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 11:18:52.845 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 11:18:52.846 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:597] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:18:52.852 [com.alibaba.druid.pool.DruidDataSource:1608] [INFO ] - {dataSource-1} closed
+2018-08-07 11:19:32.456 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 11940 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:19:32.462 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 11:19:32.592 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@443b0f9e: startup date [Tue Aug 07 11:19:32 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:19:34.392 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-07 11:19:34.652 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:361] [INFO ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:19:34.669 [org.hibernate.jpa.internal.util.LogHelper:31] [INFO ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-07 11:19:34.765 [org.hibernate.Version:45] [INFO ] - HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-07 11:19:34.769 [org.hibernate.cfg.Environment:213] [INFO ] - HHH000206: hibernate.properties not found
+2018-08-07 11:19:34.829 [org.hibernate.annotations.common.Version:66] [INFO ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-07 11:19:34.995 [org.hibernate.dialect.Dialect:157] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-07 11:19:35.348 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:19:36.370 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 11:19:36.422 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 11:19:36.423 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 11:19:36.431 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 11:19:36.447 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 5.044 seconds (JVM running for 7.04)
+2018-08-07 11:19:36.455 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@443b0f9e: startup date [Tue Aug 07 11:19:32 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:19:36.470 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 11:19:36.471 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 11:19:36.473 [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:597] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-07 11:19:36.479 [com.alibaba.druid.pool.DruidDataSource:1608] [INFO ] - {dataSource-1} closed
+2018-08-07 11:20:48.342 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 7188 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:20:48.353 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 11:20:48.546 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@72f11e53: startup date [Tue Aug 07 11:20:48 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:20:50.894 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 11:20:50.939 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 11:20:50.940 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 11:20:50.949 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 11:20:50.968 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 3.535 seconds (JVM running for 6.383)
+2018-08-07 11:20:50.977 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@72f11e53: startup date [Tue Aug 07 11:20:48 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:20:50.982 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 11:20:50.983 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 11:23:18.512 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 7932 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 11:23:18.519 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 11:23:18.697 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@178d969c: startup date [Tue Aug 07 11:23:18 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:23:21.162 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 11:23:21.203 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 11:23:21.205 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 11:23:21.212 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 11:23:21.229 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 3.415 seconds (JVM running for 6.325)
+2018-08-07 11:23:21.237 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@178d969c: startup date [Tue Aug 07 11:23:18 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 11:23:21.243 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 11:23:21.244 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 13:23:40.715 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 13600 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:23:40.721 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:23:40.951 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4995fdae: startup date [Tue Aug 07 13:23:40 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:23:46.118 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:23:46.256 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:23:46.258 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:23:46.268 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:23:46.310 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 6.693 seconds (JVM running for 9.266)
+2018-08-07 13:23:46.333 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4995fdae: startup date [Tue Aug 07 13:23:40 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:23:46.340 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 13:23:46.341 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 13:27:02.354 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 14700 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:27:02.362 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:27:02.461 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7199e6e2: startup date [Tue Aug 07 13:27:02 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:27:02.701 [o.s.c.a.AnnotationConfigApplicationContext:558] [WARN ] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.luoxue.mybatis_demo.MybatisDemoApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+2018-08-07 13:27:02.805 [org.springframework.boot.SpringApplication:842] [ERROR] - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.luoxue.mybatis_demo.MybatisDemoApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.luoxue.mybatis_demo.MybatisDemoApplication.main(MybatisDemoApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect annotated methods on class org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:169)
+	at org.springframework.context.annotation.ConfigurationClassParser.retrieveBeanMethodMetadata(ConfigurationClassParser.java:393)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:318)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:158)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 common frames omitted
+2018-08-07 13:28:05.770 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 6284 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:28:05.805 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:28:06.042 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@559dc1ab: startup date [Tue Aug 07 13:28:06 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:28:06.288 [o.s.c.a.AnnotationConfigApplicationContext:558] [WARN ] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.luoxue.mybatis_demo.MybatisDemoApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+2018-08-07 13:28:06.315 [org.springframework.boot.SpringApplication:842] [ERROR] - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.luoxue.mybatis_demo.MybatisDemoApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.luoxue.mybatis_demo.MybatisDemoApplication.main(MybatisDemoApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect annotated methods on class org.springframework.boot.web.servlet.support.SpringBootServletInitializer
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:169)
+	at org.springframework.context.annotation.ConfigurationClassParser.retrieveBeanMethodMetadata(ConfigurationClassParser.java:393)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:318)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:158)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 common frames omitted
+2018-08-07 13:29:41.782 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 15120 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:29:41.803 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:29:41.903 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7111ec33: startup date [Tue Aug 07 13:29:41 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:29:42.412 [o.s.c.a.AnnotationConfigApplicationContext:558] [WARN ] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootServletInitializer': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2018-08-07 13:29:42.445 [org.springframework.boot.SpringApplication:842] [ERROR] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootServletInitializer': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.luoxue.mybatis_demo.MybatisDemoApplication.main(MybatisDemoApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:659)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:556)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:541)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:245)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletContext
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:641)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 common frames omitted
+2018-08-07 13:30:10.838 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 14724 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:30:10.845 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:30:10.949 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ba32791: startup date [Tue Aug 07 13:30:10 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:30:13.530 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:30:13.612 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:30:13.614 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:30:13.628 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:30:13.658 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 4.645 seconds (JVM running for 6.434)
+2018-08-07 13:30:13.669 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ba32791: startup date [Tue Aug 07 13:30:10 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:30:13.677 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 13:30:13.678 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 13:31:28.087 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 13872 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:31:28.115 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:31:28.247 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@74a7ffc2: startup date [Tue Aug 07 13:31:28 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:31:31.036 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:31:31.078 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:31:31.079 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:31:31.088 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:31:31.110 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 4.119 seconds (JVM running for 5.903)
+2018-08-07 13:31:31.118 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@74a7ffc2: startup date [Tue Aug 07 13:31:28 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:31:31.124 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 13:31:31.125 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 13:32:40.765 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 6540 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:32:40.837 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:32:40.934 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@79bec760: startup date [Tue Aug 07 13:32:40 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:32:43.887 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:32:43.929 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:32:43.930 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:32:43.940 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:32:43.962 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 4.027 seconds (JVM running for 5.672)
+2018-08-07 13:32:43.971 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@79bec760: startup date [Tue Aug 07 13:32:40 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:32:43.977 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 13:32:43.978 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 13:33:51.735 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 12864 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:33:51.741 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:33:51.890 [o.s.c.a.AnnotationConfigApplicationContext:590] [INFO ] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4497b3dd: startup date [Tue Aug 07 13:33:51 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:33:54.489 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:33:54.535 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:33:54.537 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:33:54.546 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:33:54.567 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 4.271 seconds (JVM running for 6.251)
+2018-08-07 13:33:54.576 [o.s.c.a.AnnotationConfigApplicationContext:993] [INFO ] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4497b3dd: startup date [Tue Aug 07 13:33:51 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:33:54.581 [o.s.jmx.export.annotation.AnnotationMBeanExporter:451] [INFO ] - Unregistering JMX-exposed beans on shutdown
+2018-08-07 13:33:54.583 [o.s.jmx.export.annotation.AnnotationMBeanExporter:183] [INFO ] - Unregistering JMX-exposed beans
+2018-08-07 13:39:13.535 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 12760 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:39:13.541 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:39:13.654 [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590] [INFO ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63bfdfb8: startup date [Tue Aug 07 13:39:13 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:39:17.112 [o.s.boot.web.embedded.tomcat.TomcatWebServer:91] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+2018-08-07 13:39:17.159 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:39:17.175 [org.apache.catalina.core.StandardService:180] [INFO ] - Starting service [Tomcat]
+2018-08-07 13:39:17.175 [org.apache.catalina.core.StandardEngine:180] [INFO ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-07 13:39:17.196 [org.apache.catalina.core.AprLifecycleListener:180] [INFO ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\JDK1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\mysql\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Git\cmd;.]
+2018-08-07 13:39:17.362 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring embedded WebApplicationContext
+2018-08-07 13:39:17.362 [org.springframework.web.context.ContextLoader:285] [INFO ] - Root WebApplicationContext: initialization completed in 3708 ms
+2018-08-07 13:39:17.625 [o.s.boot.web.servlet.ServletRegistrationBean:186] [INFO ] - Servlet dispatcherServlet mapped to [/]
+2018-08-07 13:39:17.631 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-07 13:39:17.632 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-07 13:39:17.633 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-07 13:39:17.633 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-07 13:39:18.538 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:39:18.966 [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:574] [INFO ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63bfdfb8: startup date [Tue Aug 07 13:39:13 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:39:19.086 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/]}" onto public java.lang.String com.luoxue.mybatis_demo.controller.DefaultController.index()
+2018-08-07 13:39:19.091 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/login]}" onto public org.springframework.web.servlet.ModelAndView com.luoxue.mybatis_demo.controller.user.UserController.login(java.lang.String,java.lang.String)
+2018-08-07 13:39:19.094 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/info]}" onto public com.luoxue.mybatis_demo.entity.User com.luoxue.mybatis_demo.controller.user.UserController.show()
+2018-08-07 13:39:19.097 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-07 13:39:19.098 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 13:39:19.152 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:39:19.153 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:39:19.299 [o.s.b.a.web.servlet.WelcomePageHandlerMapping:61] [INFO ] - Adding welcome page template: index
+2018-08-07 13:39:19.515 [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:131] [INFO ] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-07 13:39:19.809 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:39:19.852 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:39:19.854 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:39:19.861 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:39:19.876 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:39:19.888 [org.apache.tomcat.util.net.NioSelectorPool:180] [INFO ] - Using a shared selector for servlet write/read
+2018-08-07 13:39:19.993 [o.s.boot.web.embedded.tomcat.TomcatWebServer:206] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-07 13:39:20.000 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 7.359 seconds (JVM running for 9.211)
+2018-08-07 13:45:02.523 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 12184 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:45:02.529 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:45:02.656 [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590] [INFO ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fee6a43: startup date [Tue Aug 07 13:45:02 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:45:04.736 [o.s.boot.web.embedded.tomcat.TomcatWebServer:91] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+2018-08-07 13:45:04.751 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:45:04.764 [org.apache.catalina.core.StandardService:180] [INFO ] - Starting service [Tomcat]
+2018-08-07 13:45:04.764 [org.apache.catalina.core.StandardEngine:180] [INFO ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-07 13:45:04.770 [org.apache.catalina.core.AprLifecycleListener:180] [INFO ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\JDK1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\mysql\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Git\cmd;.]
+2018-08-07 13:45:04.870 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring embedded WebApplicationContext
+2018-08-07 13:45:04.871 [org.springframework.web.context.ContextLoader:285] [INFO ] - Root WebApplicationContext: initialization completed in 2215 ms
+2018-08-07 13:45:05.053 [o.s.boot.web.servlet.ServletRegistrationBean:186] [INFO ] - Servlet dispatcherServlet mapped to [/]
+2018-08-07 13:45:05.059 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-07 13:45:05.059 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-07 13:45:05.059 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-07 13:45:05.060 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-07 13:45:05.763 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:45:06.052 [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:574] [INFO ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7fee6a43: startup date [Tue Aug 07 13:45:02 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:45:06.128 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/]}" onto public java.lang.String com.luoxue.mybatis_demo.controller.DefaultController.index()
+2018-08-07 13:45:06.131 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/info]}" onto public com.luoxue.mybatis_demo.entity.User com.luoxue.mybatis_demo.controller.user.UserController.show()
+2018-08-07 13:45:06.136 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/login]}" onto public org.springframework.web.servlet.ModelAndView com.luoxue.mybatis_demo.controller.user.UserController.login(java.lang.String,java.lang.String)
+2018-08-07 13:45:06.139 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-07 13:45:06.141 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 13:45:06.185 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:45:06.186 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:45:06.286 [o.s.b.a.web.servlet.WelcomePageHandlerMapping:61] [INFO ] - Adding welcome page template: index
+2018-08-07 13:45:06.510 [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:131] [INFO ] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-07 13:45:06.845 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:45:06.902 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:45:06.904 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:45:06.913 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:45:06.930 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:45:06.945 [org.apache.tomcat.util.net.NioSelectorPool:180] [INFO ] - Using a shared selector for servlet write/read
+2018-08-07 13:45:06.969 [o.s.boot.web.embedded.tomcat.TomcatWebServer:206] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-07 13:45:06.977 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 5.201 seconds (JVM running for 8.193)
+2018-08-07 13:45:44.889 [org.hibernate.validator.internal.util.Version:21] [INFO ] - HV000001: Hibernate Validator 6.0.10.Final
+2018-08-07 13:45:44.999 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 11748 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:45:44.999 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:45:45.095 [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590] [INFO ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e00815b: startup date [Tue Aug 07 13:45:45 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:45:47.259 [o.s.boot.web.embedded.tomcat.TomcatWebServer:91] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+2018-08-07 13:45:47.275 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:45:47.288 [org.apache.catalina.core.StandardService:180] [INFO ] - Starting service [Tomcat]
+2018-08-07 13:45:47.289 [org.apache.catalina.core.StandardEngine:180] [INFO ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-07 13:45:47.295 [org.apache.catalina.core.AprLifecycleListener:180] [INFO ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\JDK1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\mysql\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Git\cmd;.]
+2018-08-07 13:45:47.400 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring embedded WebApplicationContext
+2018-08-07 13:45:47.401 [org.springframework.web.context.ContextLoader:285] [INFO ] - Root WebApplicationContext: initialization completed in 2306 ms
+2018-08-07 13:45:47.603 [o.s.boot.web.servlet.ServletRegistrationBean:186] [INFO ] - Servlet dispatcherServlet mapped to [/]
+2018-08-07 13:45:47.609 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-07 13:45:47.610 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-07 13:45:47.610 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-07 13:45:47.610 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-07 13:45:48.299 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:45:48.614 [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:574] [INFO ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e00815b: startup date [Tue Aug 07 13:45:45 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:45:48.728 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/]}" onto public java.lang.String com.luoxue.mybatis_demo.controller.DefaultController.index()
+2018-08-07 13:45:48.733 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/login]}" onto public org.springframework.web.servlet.ModelAndView com.luoxue.mybatis_demo.controller.user.UserController.login(java.lang.String,java.lang.String)
+2018-08-07 13:45:48.736 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/info]}" onto public com.luoxue.mybatis_demo.entity.User com.luoxue.mybatis_demo.controller.user.UserController.show()
+2018-08-07 13:45:48.742 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-07 13:45:48.744 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 13:45:48.803 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:45:48.803 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:45:48.953 [o.s.b.a.web.servlet.WelcomePageHandlerMapping:61] [INFO ] - Adding welcome page template: index
+2018-08-07 13:45:49.149 [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:131] [INFO ] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-07 13:45:49.465 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:61] [WARN ] - Unable to start LiveReload server
+2018-08-07 13:45:49.517 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:45:49.519 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:45:49.530 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:45:49.546 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:45:49.560 [org.apache.tomcat.util.net.NioSelectorPool:180] [INFO ] - Using a shared selector for servlet write/read
+2018-08-07 13:45:49.588 [o.s.boot.web.embedded.tomcat.TomcatWebServer:206] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-07 13:45:49.594 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 5.358 seconds (JVM running for 8.235)
+2018-08-07 13:45:59.660 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-07 13:45:59.660 [org.springframework.web.servlet.DispatcherServlet:494] [INFO ] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-07 13:45:59.768 [org.springframework.web.servlet.DispatcherServlet:509] [INFO ] - FrameworkServlet 'dispatcherServlet': initialization completed in 107 ms
+2018-08-07 13:56:10.438 [com.luoxue.mybatis_demo.MybatisDemoApplication:50] [INFO ] - Starting MybatisDemoApplication on Hs with PID 14248 (G:\MyWorkIdea\mybatis_demo\target\classes started by Auser in G:\MyWorkIdea\mybatis_demo)
+2018-08-07 13:56:10.442 [com.luoxue.mybatis_demo.MybatisDemoApplication:663] [INFO ] - The following profiles are active: test
+2018-08-07 13:56:10.516 [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:590] [INFO ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b2d6810: startup date [Tue Aug 07 13:56:10 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:56:12.818 [o.s.boot.web.embedded.tomcat.TomcatWebServer:91] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+2018-08-07 13:56:12.834 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:56:12.847 [org.apache.catalina.core.StandardService:180] [INFO ] - Starting service [Tomcat]
+2018-08-07 13:56:12.847 [org.apache.catalina.core.StandardEngine:180] [INFO ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-07 13:56:12.853 [org.apache.catalina.core.AprLifecycleListener:180] [INFO ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\JDK1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\mysql\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\apache-maven-3.2.5\bin;E:\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Git\cmd;.]
+2018-08-07 13:56:12.954 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring embedded WebApplicationContext
+2018-08-07 13:56:12.955 [org.springframework.web.context.ContextLoader:285] [INFO ] - Root WebApplicationContext: initialization completed in 2439 ms
+2018-08-07 13:56:13.153 [o.s.boot.web.servlet.ServletRegistrationBean:186] [INFO ] - Servlet dispatcherServlet mapped to [/]
+2018-08-07 13:56:13.160 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-07 13:56:13.161 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-07 13:56:13.161 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-07 13:56:13.161 [o.s.boot.web.servlet.FilterRegistrationBean:245] [INFO ] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-07 13:56:13.870 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:56:14.150 [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:574] [INFO ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b2d6810: startup date [Tue Aug 07 13:56:10 GMT+08:00 2018]; root of context hierarchy
+2018-08-07 13:56:14.223 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/]}" onto public java.lang.String com.luoxue.mybatis_demo.controller.DefaultController.index()
+2018-08-07 13:56:14.226 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/login]}" onto public org.springframework.web.servlet.ModelAndView com.luoxue.mybatis_demo.controller.user.UserController.login(java.lang.String,java.lang.String)
+2018-08-07 13:56:14.228 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/user/info]}" onto public com.luoxue.mybatis_demo.entity.User com.luoxue.mybatis_demo.controller.user.UserController.show()
+2018-08-07 13:56:14.231 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-07 13:56:14.232 [o.s.w.s.m.m.a.RequestMappingHandlerMapping:547] [INFO ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 13:56:14.274 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:56:14.274 [o.s.web.servlet.handler.SimpleUrlHandlerMapping:373] [INFO ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 13:56:14.384 [o.s.b.a.web.servlet.WelcomePageHandlerMapping:61] [INFO ] - Adding welcome page template: index
+2018-08-07 13:56:14.624 [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:131] [INFO ] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-07 13:56:14.885 [o.s.b.d.autoconfigure.OptionalLiveReloadServer:57] [INFO ] - LiveReload server is running on port 35729
+2018-08-07 13:56:14.936 [o.s.jmx.export.annotation.AnnotationMBeanExporter:433] [INFO ] - Registering beans for JMX exposure on startup
+2018-08-07 13:56:14.938 [o.s.jmx.export.annotation.AnnotationMBeanExporter:895] [INFO ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-07 13:56:14.946 [o.s.jmx.export.annotation.AnnotationMBeanExporter:668] [INFO ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-07 13:56:14.962 [org.apache.coyote.http11.Http11NioProtocol:180] [INFO ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-07 13:56:14.977 [org.apache.tomcat.util.net.NioSelectorPool:180] [INFO ] - Using a shared selector for servlet write/read
+2018-08-07 13:56:15.000 [o.s.boot.web.embedded.tomcat.TomcatWebServer:206] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-07 13:56:15.007 [com.luoxue.mybatis_demo.MybatisDemoApplication:59] [INFO ] - Started MybatisDemoApplication in 5.247 seconds (JVM running for 9.737)
+2018-08-07 13:56:28.739 [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] [INFO ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-07 13:56:28.739 [org.springframework.web.servlet.DispatcherServlet:494] [INFO ] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-07 13:56:28.772 [org.springframework.web.servlet.DispatcherServlet:509] [INFO ] - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-08-07 13:56:36.646 [c.luoxue.mybatis_demo.service.impl.UserServiceImpl:37] [INFO ] - 插入用户信息
+2018-08-07 13:56:36.855 [com.alibaba.druid.pool.DruidDataSource:847] [INFO ] - {dataSource-1} inited
+2018-08-07 13:56:37.070 [c.luoxue.mybatis_demo.service.impl.UserServiceImpl:26] [INFO ] - 通过id查询用户信息！

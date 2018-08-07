@@ -1,0 +1,6 @@
+2018-08-07 13:56:37.032 [com.luoxue.mybatis_demo.dao.UserMapper.insert:159] [DEBUG] - ==>  Preparing: insert into user (id, name, password ) values (?, ?, ?) 
+2018-08-07 13:56:37.055 [com.luoxue.mybatis_demo.dao.UserMapper.insert:159] [DEBUG] - ==> Parameters: null, test2(String), test2(String)
+2018-08-07 13:56:37.068 [com.luoxue.mybatis_demo.dao.UserMapper.insert:159] [DEBUG] - <==    Updates: 1
+2018-08-07 13:56:37.073 [c.l.mybatis_demo.dao.UserMapper.selectByPrimaryKey:159] [DEBUG] - ==>  Preparing: select id, name, password from user where id = ? 
+2018-08-07 13:56:37.074 [c.l.mybatis_demo.dao.UserMapper.selectByPrimaryKey:159] [DEBUG] - ==> Parameters: 24(Integer)
+2018-08-07 13:56:37.118 [c.l.mybatis_demo.dao.UserMapper.selectByPrimaryKey:159] [DEBUG] - <==      Total: 1
